@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tauri
+src-tauri/target/
+src-tauri/tauri.conf.json
+src-tauri/tauri.lock
+src-tauri/tauri.bundle.js
+src-tauri/tauri.bundle.min.js
+src-tauri/tauri.js
+src-tauri/tauri.min.js
+src-tauri/tauri.js.map
+src-tauri/tauri.min.js.map
+
+# Build artifacts
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
